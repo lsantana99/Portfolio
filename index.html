@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico (2).png" type="image/x-icon">
+    <script src="portfolio.js"></script>
+</head>
+<body>
+    <header id="inicio">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="https://www.linkedin.com/in/lucas-santana-oliveira/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/lsantana99" target="_blank">Github</a></li>
+                </ul>
+                
+            </nav>
+    </header>
+    <main>
+        <div>
+            <a href="https://github.com/lsantana99" target="_blank"><img src="images/fotolucas.jpeg" alt=""></a>
+            <h1> Lucas Santana</h1>
+            <p>Desenvolvedor Front-end</p>
+        </div>
+    </main>
+    <section class="sobre" id="sobre">
+        <h2>Sobre mim</h2>
+        <div>
+            <p>Sou um desenvolvedor Front-end dedicado a transformar conceitos em experiências digitais modernas e funcionais. Tenho paixão por criar interfaces intuitivas, com design responsivo e foco na melhor experiência do usuário. Gosto de unir criatividade e técnica no desenvolvimento, explorando constantemente novas ferramentas e aprimorando meus conhecimentos em HTML, CSS, JavaScript. Acredito que cada detalhe do código reflete o cuidado e a visão por trás de um bom projeto, e é isso que me motiva a evoluir a cada linha escrita.
+            </p>
+        </div>
+    </section>
+    <section class="projetos" id="projetos">
+        <h2>Meus projetos</h2>
+        <a href="https://lsantana99.github.io/Site-sobre-android/" target="_blank">
+            <div class="projetoscard">
+                <img src="images/sitetecnologia.jpeg" alt="sitetecnologia" id="fototecnologia">
+                <h3>Site sobre android</h3>
+                <p>Site completo explorando HTML e CSS afim de melhorar as minhas habilidades reais com a criação de sites profissionais.</p>
+            </div>
+        </a>
+        <a href="https://lsantana99.github.io/Tela-de-login/" target="_blank">
+            <div class="projetoscard">
+                <img src="images/teladelogin.jpeg" alt="teladelogin" id="teladelogin">
+                <h3>Tela de login</h3>
+                <p>Projeto feito visando aperfeiçoar aas minhas habilidades em CSS, com novas ferramentas de aprendizado como backgroung-image, e transition.</p>
+            </div>
+        </a>
+        <a href="https://lsantana99.github.io/Calculadora/" target="_blank">
+            <div class="projetoscard">
+                <img src="images/calculadora.jpeg" alt="calculadora" id="calculadora">
+                <h3>Calculadora</h3>
+                <p>Calculadora inteiramente funcional, feita para aprimorar minhas habilidades especialmente em JavaScript.</p>
+            </div>
+        </a>
+    </section>
+    <section class="contatos" id="contato">
+        <h2>Entre em contato</h2>
+        <form onsubmit="sendmsg(event)">
+            <input type="text" placeholder="Seu nome" id="name"><br>
+            <input type="text" placeholder="Sua mensagem" id="text"><br>
+            <button type="submit">Enviar via Whatsapp</button>
+        </form>
+    </section>
+</body>
+</html>
