@@ -31,16 +31,19 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 100;
+    margin: 0px;
+    min-width: 250px;
 }
 
 ul{
     display: flex;
     justify-content: center;
+    min-width: 250px
 }
 
 li{
     display: inline;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 li a{
